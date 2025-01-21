@@ -4,15 +4,13 @@ USE hrcompany;
 -- visus darbuotojų įrašus iš Employees lentelės. (TIP: turi būti išvesta visa
 -- visų darbuotojų informacija)
 
-select *
-from employees;
+SELECT * FROM employees;
 
 -- 2. Pasirinkite tam tikrus stulpelius: parodykite visus vardus ir
 -- pavardes iš Employees lentelės. (TIP: turi matytis tik vardai ir pavardės,
 -- bet išvesti visi darbuotojai)
 
-select FirstName, LastName
-from employees;
+SELECT FirstName, LastName FROM employees;
 
 -- 3. Filtruokite pagal skyrius: gaukite darbuotojų sąrašą, kurie dirba
 -- HR skyriuje. (TIP: jungti su departments lentele, bet turi būti išvesta bent
